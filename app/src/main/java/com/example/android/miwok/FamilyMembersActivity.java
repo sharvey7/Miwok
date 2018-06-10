@@ -27,6 +27,7 @@ public class FamilyMembersActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent familyIntent = new Intent(FamilyMembersActivity.this, MainActivity.class);
                     startActivity(familyIntent);
+                    //change here
                 }
             });
         }
